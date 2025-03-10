@@ -32,7 +32,7 @@ To run this project locally:
 1. Clone the repository
 2. Install dependencies:
    ```
-   cd portfolio-frontend
+   cd frontend
    npm install
    ```
 3. Start the frontend development server:

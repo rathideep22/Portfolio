@@ -1,8 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { FiBookOpen, FiAward } from "react-icons/fi";
-import Link from "next/link";
 
 const education = [
   {

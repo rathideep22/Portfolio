@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FiUser, FiAward, FiCode } from "react-icons/fi";
+import { FiUser, FiCode } from "react-icons/fi";
 
 export default function About() {
   return (
@@ -37,7 +37,7 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold mb-4 text-emerald-400">Software Engineer & Data Scientist</h3>
             <p className="mb-6 leading-relaxed">
-              I'm a passionate software engineer and data scientist with expertise in building innovative digital solutions.
+              I&apos;m a passionate software engineer and data scientist with expertise in building innovative digital solutions.
               My journey in tech began with a curiosity about how software shapes our world, and has evolved into a career
               focused on creating impactful applications that solve real problems.
             </p>
@@ -47,7 +47,7 @@ export default function About() {
               that are both powerful and intuitive.
             </p>
             <p className="leading-relaxed">
-              Currently, I'm focused on developing AI-driven applications that make complex data analytics accessible and 
+              Currently, I&apos;m focused on developing AI-driven applications that make complex data analytics accessible and 
               actionable for businesses and organizations.
             </p>
           </motion.div>

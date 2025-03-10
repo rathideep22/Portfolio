@@ -1,0 +1,44 @@
+# dependencies
+/node_modules
+/portfolio-frontend/node_modules
+/portfolio-backend/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+/portfolio-frontend/.next/
+/portfolio-frontend/out/
+
+# production
+/build
+/portfolio-frontend/build
+/portfolio-backend/build
+
+# misc
+.DS_Store
+*.pem
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts 

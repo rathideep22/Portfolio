@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "Software Engineer Portfolio with Next.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd portfolio-frontend && npm run dev",
+    "backend": "cd portfolio-backend && npm run dev",
+    "dev": "cd portfolio-frontend && start npm run dev && cd ../portfolio-backend && npm run dev"
+  },
+  "keywords": ["portfolio", "nextjs", "express", "typescript"],
+  "author": "Deep Rathi",
+  "license": "MIT"
+} 

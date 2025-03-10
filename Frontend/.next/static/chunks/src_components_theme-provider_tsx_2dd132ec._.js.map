@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/ProtfolioDeep/portfolio-frontend/src/components/theme-provider.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport * as React from \"react\";\r\nimport { ThemeProvider as NextThemesProvider } from \"next-themes\";\r\n\r\nexport function ThemeProvider({ children, ...props }: any) {\r\n  const [mounted, setMounted] = React.useState(false);\r\n\r\n  // Ensure the component is mounted on the client\r\n  React.useEffect(() => {\r\n    setMounted(true);\r\n  }, []);\r\n\r\n  // During SSR, render nothing to avoid hydration mismatch\r\n  if (!mounted) {\r\n    return <>{children}</>;\r\n  }\r\n\r\n  return <NextThemesProvider {...props}>{children}</NextThemesProvider>;\r\n} "],"names":[],"mappings":";;;;AAEA;AACA;;;AAHA;;;AAKO,SAAS,cAAc,EAAE,QAAQ,EAAE,GAAG,OAAY;;IACvD,MAAM,CAAC,SAAS,WAAW,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAc,AAAD,EAAE;IAE7C,gDAAgD;IAChD,CAAA,GAAA,6JAAA,CAAA,YAAe,AAAD;mCAAE;YACd,WAAW;QACb;kCAAG,EAAE;IAEL,yDAAyD;IACzD,IAAI,CAAC,SAAS;QACZ,qBAAO;sBAAG;;IACZ;IAEA,qBAAO,6LAAC,mJAAA,CAAA,gBAAkB;QAAE,GAAG,KAAK;kBAAG;;;;;;AACzC;GAdgB;KAAA","debugId":null}},
+    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

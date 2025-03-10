@@ -1,6 +1,6 @@
 # dependencies
 /node_modules
-/portfolio-frontend/node_modules
+/frontend/node_modules
 /portfolio-backend/node_modules
 /.pnp
 .pnp.js
@@ -11,12 +11,12 @@
 # next.js
 /.next/
 /out/
-/portfolio-frontend/.next/
-/portfolio-frontend/out/
+/frontend/.next/
+/frontend/out/
 
 # production
 /build
-/portfolio-frontend/build
+/frontend/build
 /portfolio-backend/build
 
 # misc

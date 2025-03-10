@@ -1,141 +1,53 @@
-# Deep Rathi - Software Engineer Portfolio
+# Portfolio Website
 
-A modern, responsive portfolio website built with Next.js, TypeScript, and Express.js.
+A modern, responsive portfolio website built with Next.js and styled with Tailwind CSS, featuring a beautiful jade black color scheme.
 
 ## Features
 
-- Modern UI with responsive design for all devices
-- Dark/Light theme toggle
-- Animated sections using Framer Motion
-- Contact form with validation
-- Backend API for handling form submissions
+- Responsive design that works on all devices
+- Beautiful jade black color scheme with emerald accents
+- Interactive UI elements with subtle animations
+- Contact form integration
+- Dark mode support
 
 ## Technologies Used
 
-### Frontend
-- Next.js 14
-- TypeScript
+- Next.js
+- React
 - Tailwind CSS
-- Framer Motion (animations)
-- React Icons
-- Typewriter Effect
+- Framer Motion
+- Node.js (backend)
 
-### Backend
-- Express.js
-- TypeScript
-- MongoDB (optional)
-- CORS
+## Structure
 
-## Project Structure
+The project is organized into two main directories:
 
-```
-portfolio-project/
-├── portfolio-frontend/       # Next.js frontend
-│   ├── public/               # Static assets
-│   ├── src/                  # Source code
-│   │   ├── app/              # App router components
-│   │   ├── components/       # Reusable components
-│   │   └── styles/           # Global styles
-│   ├── package.json
-│   └── tailwind.config.js
-│
-└── portfolio-backend/        # Express.js backend
-    ├── src/                  # Source code
-    │   ├── models/           # Database models
-    │   ├── routes/           # API routes
-    │   └── server.ts         # Main server file
-    ├── .env                  # Environment variables
-    └── package.json
-```
+- `portfolio-frontend`: Contains the Next.js frontend application
+- `portfolio-backend`: Contains the Node.js backend for handling form submissions
 
 ## Getting Started
 
-### Prerequisites
+To run this project locally:
 
-- Node.js (v18 or higher)
-- npm or yarn
-- MongoDB URI (optional, for database functionality)
+1. Clone the repository
+2. Install dependencies:
+   ```
+   cd portfolio-frontend
+   npm install
+   ```
+3. Start the frontend development server:
+   ```
+   npm run dev
+   ```
+4. In a separate terminal, start the backend server:
+   ```
+   cd portfolio-backend
+   npm install
+   npm run dev
+   ```
 
-### Installation
+## Contact
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/portfolio-project.git
-cd portfolio-project
-```
-
-2. Set up the backend:
-```bash
-cd portfolio-backend
-npm install
-```
-
-3. Configure the environment variables:
-   - Create a `.env` file in the backend directory based on `.env.example`
-   - Add your MongoDB URI if you want to use database functionality
-
-4. Set up the frontend:
-```bash
-cd ../portfolio-frontend
-npm install
-```
-
-### Running the Project
-
-#### Development Mode
-
-1. Start the backend:
-```bash
-cd portfolio-backend
-npm run dev
-```
-
-2. In a separate terminal, start the frontend:
-```bash
-cd portfolio-frontend
-npm run dev
-```
-
-3. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-#### Production Mode
-
-1. Build the backend:
-```bash
-cd portfolio-backend
-npm run build
-```
-
-2. Build the frontend:
-```bash
-cd portfolio-frontend
-npm run build
-```
-
-3. Start the backend:
-```bash
-cd portfolio-backend
-npm start
-```
-
-4. Serve the frontend:
-```bash
-cd portfolio-frontend
-npm start
-```
-
-## Deployment
-
-### Frontend
-The frontend is designed to be deployed on Vercel, but can be deployed on any platform that supports Next.js.
-
-### Backend
-The backend can be deployed on services like Render, Heroku, or any other platform that supports Node.js applications.
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-Created by Deep Rathi 
+Deep Rathi - deeprathi222@gmail.com
+GitHub: [rathideep22](https://github.com/rathideep22)
+LinkedIn: [Deep Rathi](https://www.linkedin.com/in/deep-rathi-b37a44230/) 
